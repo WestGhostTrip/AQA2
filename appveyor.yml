@@ -4,8 +4,8 @@ stack: jdk 11  # версия JDK
 
 branches:
   only:
-    - chmod +x gradlew
     - main  # ветка git
+    - chmod +x gradlew
 
 build: off  # будем использовать свой скрипт сборки
 
